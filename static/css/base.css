@@ -9,6 +9,17 @@ body {
     font-family: "Gentium Book Basic";
 }
 
+.main-logo-link {
+    width: fit-content;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+.text-black{
+    color: black !important;
+}
 
 /* -------------------------------- Media Queries */
 
