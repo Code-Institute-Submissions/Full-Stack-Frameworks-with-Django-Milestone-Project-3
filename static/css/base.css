@@ -64,11 +64,6 @@ a.category-badge > span.badge:hover {
 
 /* ------------------------------- bootstrap toasts */
 
-.toast{
-    max-width: 240px;
-    height: 250px;
-}
-
 .message-container {
     position: fixed;
     top: 72px;
