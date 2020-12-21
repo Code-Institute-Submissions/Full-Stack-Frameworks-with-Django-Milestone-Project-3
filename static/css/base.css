@@ -165,7 +165,7 @@ input[name='q']::placeholder {
 }
 
 .bag-notification-wrapper {
-    /* height: 100px; */
+    height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
 }
