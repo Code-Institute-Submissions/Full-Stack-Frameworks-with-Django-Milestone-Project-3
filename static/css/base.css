@@ -9,16 +9,24 @@ body {
     font-family: "Gentium Book Basic";
 }
 
+.icon{
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo-font{
+    text-transform: uppercase;
+}
+
 .main-logo-link {
     width: fit-content;
 }
 
 .border-black {
     border: 1px solid black !important;
-}
-
-.text-black{
-    color: black !important;
 }
 
 .overlay {
@@ -51,6 +59,17 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 200px;
+}
+
+.btn-black {
+    background: black;
+    color: white;
+}
+
 .btn-outline-black {
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
@@ -64,11 +83,6 @@ a.category-badge > span.badge:hover {
     color: white !important;
 }
 
-.btn-black {
-    background: black;
-    color: white;
-}
-
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -79,18 +93,10 @@ a.category-badge > span.badge:hover {
     color: white;
 }
 
-.shop-now-button {
-    background: transparent;
-    color: white;
-    min-width: 200px;
+.text-black {
+    color: #000 !important;
 }
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus {
-    background: transparent;
-    color: white;
-}
 
 input[name='q']::placeholder {
     color: #aab7c4;
@@ -295,10 +301,6 @@ input[name='q']::placeholder {
     .navbar-toggler {
         padding: .6rem .6rem;
         font-size: 1rem;
-    }
-
-    #delivery-banner h4 {
-        font-size: .9rem;
     }
 
     .btn.btn-outline-black.rounded-0,
