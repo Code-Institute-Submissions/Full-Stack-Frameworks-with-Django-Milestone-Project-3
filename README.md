@@ -1,8 +1,6 @@
-# Your Project's Name
+# Library
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+My Website has been developed for Code Institute's Full-Stack Frameworks with Django Milestone Project and represents e-commerce. It is an a minimalist and essential site for sale books suitable for small bookshops who want to have an online window!
  
 ## UX
  
