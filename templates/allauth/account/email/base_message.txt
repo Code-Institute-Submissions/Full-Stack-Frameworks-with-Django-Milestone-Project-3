@@ -1,7 +1,10 @@
-{% load i18n %}{% autoescape off %}{% blocktrans with site_name=current_site.name %}Hello {{ user_display }}!{% endblocktrans %}
+{% load i18n %}
+{% autoescape off %}
+{% blocktrans with site_name=current_site.name %}Hello{% endblocktrans %}{{ user_display }}!
 
 {% block content %}{% endblock %}
 
 {% blocktrans with site_name=current_site.name site_domain=current_site.domain %}Thank you for using Library!
-{{ site_domain }}{% endblocktrans %}
+{{ site_domain }}
+{% endblocktrans %}
 {% endautoescape %}
