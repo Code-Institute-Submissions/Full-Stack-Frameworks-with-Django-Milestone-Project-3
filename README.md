@@ -2,18 +2,89 @@
 
 My Website has been developed for Code Institute's Full-Stack Frameworks with Django Milestone Project and represents e-commerce. It is an a minimalist and essential site for sale books suitable for small bookshops who want to have an online window!
 
-<p> Link to Website: </p> 
+![](media/home.jpg)
 
-https://salvo-library.herokuapp.com/
+<p> Visit the Website: </p> 
+
+[Library](https://salvo-library.herokuapp.com/)
 
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### Project Purpose
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+The goal of Library is to give the user a good experience when purchasing book(s) in a simple & effective way using the following functions:
+
+- User registration form
+- User log in control
+- Log out
+- Recover forgotten password
+- Viewing profile Information page
+- Viewing purchase history
+- Edit delivery address
+- Easy navigation
+- Search quickly using the search bar
+- Viewing name, cover, description, price, rating of book(s)
+- Sort/order the catalog of book(s) by:
+    - price low to high/high to low;
+    - rating low to high/high to low;
+    - name low to high/high to low;
+    - categories low to high/high to low; 
+- View the existing categories
+- Adding book(s) to the cart
+- Adjusting the quantity of book(s) in cart
+- Removing book(s) from cart
+- Secure online payment
+
+From the perspective of the website vendor or operator, Library's goal is to offer a good experience when updating the website in a simple and effective way by using user functions in addition to the following:
+
+- Log as Admin/Superuser
+- Add, modify or delete item(s)/book(s):
+    - Category;
+    - Name;
+    - Description;
+    - Price;
+    - Rating;
+    - Image by url or loading;
+- Add, modify or delete categories
+- Add, modify or delete an order
+- Authenticate user log in, emails
+
+### User Experience
+
+- Users are presented with a simple user interface that uses buttons and drop-down menus for easy navigation at the top of
+the screen for viewing mobile and tablet devices and a navigation list on the side of the desktop display for a home / Library, a log, services, products, shopping cart, access and review depending on the user's login status.
+
+- At the top of the page there is always the navigation bar to prevent a user of a device from being forced to go back or scroll to the menu to navigate.
+
+- All the books on the product page have a title, price, category, rating. As Admin / Superuser there are also two buttons for edit and delete.
+
+- Clicking on the cover of the books opens the details page. the presentation page divided into two quadrants, on the left the cover image, on the right the name, the price, the category to which it belongs, rating, a short description, a button to change the quantities, a button to return to the page precedenete, a button to add to cart. also here as Admin / Superuser there are also two buttons for edit and delete.
+
+- When the user adds, modifies, removes or performs a login, log out, purchase action, a notification is displayed with a toast. the displayed message is fixed under the cart and modified with colors according to the type of message displayed.
+
+- The layout remains the same to try to keep things simple and hassle-free when navigating from page to page, which prevents the user from clicking the browser's back button.
+
+- The login or registration forms will not be displayed to the incoming user to maintain navigation even for users who wish to purchase without registering or logging in.
+
+- The layout of a white background has been included on the product and service pages to keep the layout clean and speed up loading times if there are many products or services to display on a device. the only background image is shown on the home screen as a stylistic and aesthetic presentation to the website.
+
+- Login and registration have been implemented on the website to help protect user data such as confidential information and Stripe takes care of card payments.
+
+
+### User Stories:
+
+- As an entrepreneur, I want to have a way to easily manage my e-commerce. I want to be able to have a site where I can sell in to a public online with speed and simplicity.
+
+- As a website owner and sole trader, I want my website to be efficient, intuitive and suitable for everyone. I need an easy way to increase my sales and find a growing audience of buyers.
+
+- As a seller as a profession I need to expand my showcase and not to be beaten by the competition.
+
+- As a Library user I can manage my account and buy books and keep up to date with upcoming news or to find something to read as a hobby.
+
+- As a Library user I can easily browse and navigate the website and find the best offers and gifts or what I am passionate about.
+
+- As a website user, payments are secure and I don't have to worry about my password or card details being stolen. Immediate deliveries and an always updated catalog.
+
 
 ## Features
 
