@@ -85,6 +85,59 @@ the screen for viewing mobile and tablet devices and a navigation list on the si
 
 - As a website user, payments are secure and I don't have to worry about my password or card details being stolen. Immediate deliveries and an always updated catalog.
 
+### Design ideas
+
+Website design is all about trying to provide a simple yet straightforward layout without over-complication or the feel of too many things.
+
+- #### Characters
+
+    - The standard font was used to keep things simple.
+
+- #### Colors
+
+    <b> black / white </b>
+    These colors were used for most of the pages on the website, including the text, navigation, and button elements.
+    <br>
+
+   
+    <b> white </b>
+    This color was used for a background color. except on the home page
+    <br>
+    
+- #### Styling
+    
+    ** Special styles include: **
+    
+    - ** Buttons - ** The buttons were designed using bootstrap and the colors were chosen using the bootstrap color scheme. I used Font Awesome to add icons to buttons to help users better understand the purpose at a glance.
+        
+    
+    - ** Pagination - ** Pagination consists of a navigation menu at the top.
+
+
+### Wireframe
+
+The wireframes have not been created but by copying an already existing project and modifying it as needed.
+
+- #### Wireframe
+
+    - ![Home](media/home.jpg)
+    - ![Products](media/products.jpg)
+    - [Product page](https://salvo-library.herokuapp.com/products/)
+    - [Book detail page](https://salvo-library.herokuapp.com/products/3/)
+    - [Login page](https://salvo-library.herokuapp.com/accounts/login/)
+    - [Registration page](https://salvo-library.herokuapp.com/accounts/signup/)
+    - [Cart Page](https://salvo-library.herokuapp.com/bag/)
+    - [Payment form](https://salvo-library.herokuapp.com/checkout/)
+    - [Profile page](https://salvo-library.herokuapp.com/profile/)
+    - [Bag page](https://salvo-library.herokuapp.com/bag/)
+
+
+### Developer and commercial purpose
+
+- Must show clear and professional examples of HTML, CSS, JavaScript and Python.
+
+- Must show the use of Django's knowledge.
+
 
 ## Features
 
