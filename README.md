@@ -120,16 +120,26 @@ The wireframes have not been created but by copying an already existing project 
 
 - #### Wireframe
 
-    - ![Home](media/home.jpg)
-    - ![Products](media/products.jpg)
-    - [Product page](https://salvo-library.herokuapp.com/products/)
-    - [Book detail page](https://salvo-library.herokuapp.com/products/3/)
+    - Home
+    ![](media/home.jpg)
+    - Products Page
+    ![](media/products.jpg)
+    - Details Books Page
+    ![](media/details.jpg)
     - [Login page](https://salvo-library.herokuapp.com/accounts/login/)
+    - ![](media/products.jpg)
     - [Registration page](https://salvo-library.herokuapp.com/accounts/signup/)
+    - ![](media/products.jpg)
     - [Cart Page](https://salvo-library.herokuapp.com/bag/)
+    - ![](media/products.jpg)
     - [Payment form](https://salvo-library.herokuapp.com/checkout/)
+    - ![](media/products.jpg)
     - [Profile page](https://salvo-library.herokuapp.com/profile/)
+    - ![](media/products.jpg)
     - [Bag page](https://salvo-library.herokuapp.com/bag/)
+    - ![](media/products.jpg)
+    - Log out Page
+    ![](media/logout.jpg)
 
 
 ### Developer and commercial purpose
