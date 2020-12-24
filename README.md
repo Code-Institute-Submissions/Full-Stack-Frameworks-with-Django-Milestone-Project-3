@@ -1,6 +1,6 @@
 # Library
 
-My Website has been developed for Code Institute's Full-Stack Frameworks with Django Milestone Project and represents e-commerce. It is an a minimalist and essential site for sale books suitable for small bookshops who want to have an online window!
+My Website has been developed for Code Institute's Full-Stack Frameworks with Django Milestone Project and represents an e-commerce. It is a minimalist and essential site for books sale suitable for small bookshops who want to have an online window!
 
 ![](media/home.jpg)
 
@@ -56,42 +56,42 @@ the screen for viewing mobile and tablet devices and a navigation list on the si
 
 - At the top of the page there is always the navigation bar to prevent a user of a device from being forced to go back or scroll to the menu to navigate.
 
-- All the books on the product page have a title, price, category, rating. As Admin / Superuser there are also two buttons for edit and delete.
+- All the books on the product page have a title, price, category, rating. As Admin / Superuser there are also two buttons to edit and delete.
 
-- Clicking on the cover of the books opens the details page. the presentation page divided into two quadrants, on the left the cover image, on the right the name, the price, the category to which it belongs, rating, a short description, a button to change the quantities, a button to return to the page precedenete, a button to add to cart. also here as Admin / Superuser there are also two buttons for edit and delete.
+- Clicking on the cover of the books the user will be redirect to the book details. The presentation page divided into two quadrants, on the left the cover image, on the right the name, the price, the category it belongs to, rating, a short description, a button to change the quantities, a button to return to the previous page , a button to add to cart. Also, on this details page, as Admin / Superuser there are also two buttons to edit and delete.
 
-- When the user adds, modifies, removes or performs a login, log out, purchase action, a notification is displayed with a toast. the displayed message is fixed under the cart and modified with colors according to the type of message displayed.
+- When the user adds, modifies, removes or performs a login, log out, purchase action, a notification is displayed with a toast. The displayed message is fixed under the cart and the colors are changing according to the type of message displayed.
 
 - The layout remains the same to try to keep things simple and hassle-free when navigating from page to page, which prevents the user from clicking the browser's back button.
 
 - The login or registration forms will not be displayed to the incoming user to maintain navigation even for users who wish to purchase without registering or logging in.
 
-- The layout of a white background has been included on the product and service pages to keep the layout clean and speed up loading times if there are many products or services to display on a device. the only background image is shown on the home screen as a stylistic and aesthetic presentation to the website.
+- The layout of a white background has been included on the product and service pages to keep the layout clean and speed up loading times if there are many products or services to display on a device. The only background image is shown on the home screen as a stylistic and aesthetic presentation to the website.
 
 - Login and registration have been implemented on the website to help protect user data such as confidential information and Stripe takes care of card payments.
 
 
 ### User Stories:
 
-- As an entrepreneur, I want to have a way to easily manage my e-commerce. I want to be able to have a site where I can sell in to a public online with speed and simplicity.
+- As an entrepreneur, I want to have a way to easily manage my e-commerce. I want to be able to have a site where I can sell to an online customers with speed and simplicity.
 
 - As a website owner and sole trader, I want my website to be efficient, intuitive and suitable for everyone. I need an easy way to increase my sales and find a growing audience of buyers.
 
-- As a seller as a profession I need to expand my showcase and not to be beaten by the competition.
+- As a professional seller, I need to increase my profits and be competitive. 
 
-- As a Library user I can manage my account and buy books and keep up to date with upcoming news or to find something to read as a hobby.
+- As a Library customer I can manage my account, buy book(s) and be kept up to date with upcoming news or finding something to read as a hobby.
 
-- As a Library user I can easily browse and navigate the website and find the best offers and gifts or what I am passionate about.
+- As a Library customer I can easily browse and navigate the website and find the best offers, gift ideas, or what I am passionate about.
 
-- As a website user, payments are secure and I don't have to worry about my password or card details being stolen. Immediate deliveries and an always updated catalog.
+- As a website user, I can count on fast delivery, updated catalog and I don't have to worry about my password or card details being stolen because the site has a secure payment method.
 
 ### Design ideas
 
-Website design is all about trying to provide a simple yet straightforward layout without over-complication or the feel of too many things.
+The design of the Website is very clear and minimal, it has a simple straightforward layout without over-complication. 
 
 - #### Characters
 
-    - The standard font was used to keep things simple.
+    - The font used is Gentium Book Basic and I choose it to keep things simple.
 
 - #### Colors
 
@@ -101,14 +101,14 @@ Website design is all about trying to provide a simple yet straightforward layou
 
    
     <b> white </b>
-    This color was used for a background color. except on the home page
+    This color was used for the background, except on the home page.
     <br>
     
 - #### Styling
     
     ** Special styles include: **
     
-    - ** Buttons - ** The buttons were designed using bootstrap and the colors were chosen using the bootstrap color scheme. I used Font Awesome to add icons to buttons to help users better understand the purpose at a glance.
+    - ** Buttons - ** The buttons were designed using bootstrap and the colors were chosen using the bootstrap color scheme. I used Font Awesome to add icons to buttons to help users better understand the purpose of this essential proposal.
         
     
     - ** Pagination - ** Pagination consists of a navigation menu at the top.
@@ -116,7 +116,7 @@ Website design is all about trying to provide a simple yet straightforward layou
 
 ### Wireframe
 
-The wireframes have not been created but by copying an already existing project and modifying it as needed.
+The wireframes have not been created from zero but copied by an already existing project and modified where needed.
 
 - #### Wireframe
 
@@ -150,7 +150,7 @@ The wireframes have not been created but by copying an already existing project 
 
 ### Developer and commercial purpose
 
-- Must show clear and professional examples of HTML, CSS, JavaScript and Python.
+- Must show clear and professional examples of HTML5, CSS3, JavaScript and Python.
 
 - Must show the use of Django's knowledge.
 
@@ -169,28 +169,28 @@ The wireframes have not been created but by copying an already existing project 
 ** Desktop **
 - At the top left there is the logo of the brand, linked to the home page.
 
-- In the center at the top a search bar.
+- In the center, at the top, there is a search bar.
 
-- Below the search bar there are the buttons with the categories with drop down menu. For a targeted and cleaner search by the user.
+- Below the search bar there are the buttons with the categories in a drop down menu. For a targeted and cleaned search by the user.
 
-- At the top right there are two buttons one for the profile, one for the cart.
+- At the top right there are two buttons, one for the profile, one for the cart.
 
 
 ** Tablets and mobile devices **
 
-- The menu is displayed with the layout of the hamburger, where the home and categories are located. The search bar, in profile and the shopping cart remain visible through icons.
+- The menu is displayed with the layout of the hamburger where the home and categories are located. The search bar, profile and the shopping cart remain visible through icons.
 
-- The page content is resized to a layout appropriate to the size of the smallest device screen size.
+- The page content is resized accordingly to the size of the smallest devices screen size.
 
 
 #### Home page:
 
-- Provides the user with a friendly and simple complete view of the website layout. The screen is dominated by an image and a question that entices the user, visitor to explore the site.
+- Provides the user with a friendly and simple complete view of the website layout. The screen is dominated by an image and a question that invites the user to explore the site.
 
 
 #### Product page:
 
-- Show users available books with name, price, membership category, rating.
+- It show to users available books with name, price, membership category, rating.
 
 - As Superuser / Admin there are also the edit and delete buttons.
 
@@ -202,7 +202,7 @@ The wireframes have not been created but by copying an already existing project 
 
 #### Registration page:
 
-- ** Registration Form ** - A registration form has been added so that the user can register on the website. There are five required fields, email address, email confirmation, username, password and password confirmation. All fields must be filled in before they can register successfully otherwise they will receive a notification from the form to fill in the missing details. The Password and Confirm Password fields must also match before a user can successfully register. If you have successfully signed up, you will receive a notification and log in to the account you just created. There is also a link to the login page if you already have an account and want to log in. Upon successful registration, an email is sent to confirm the email that redirects to the website to log in and confirm access.
+- ** Registration Form ** - A registration form has been added so that the user can register on the website. There are five required fields, email address, email confirmation, username, password and password confirmation. All fields must be filled in before they can register successfully, otherwise they will receive a notification from the form to fill in the missing or incorrect details. The Password and Confirm Password fields must also match before a user can successfully register. Same for the email fields. Upon successful registration, an email is sent to confirm the email that redirects you to the website to log in and confirm access. There is also a link, in the registration page, that can be used to log in if you have already an account. 
 
 
 #### Cart page:
@@ -214,17 +214,15 @@ The wireframes have not been created but by copying an already existing project 
 
 - ** Payment module ** - Stripe was used to complete the purchase in a safe and secure way for the user.
 
-
 #### Successful Payment Page:
 
 - ** Successful payment box ** 
-  - A page is displayed and an email with a summary of your purchases is sent.
-
+  - A page is displayed confirming the successfull purchase and an email, with a summary of your purchases, is sent to your email address.
 
 #### Profile page:
 
 - ** User Profile ** 
-  - When a user is logged in, they can view their profile on the profile page, this will give them the ability to change the delivery address and a summary of their previous purchases.
+  - When a user is logged in, they can view their profile on the profile page. It will give them the possibility to change the delivery address and view a summary of their previous purchases.
 
 ### Features Left to Implement
 
@@ -265,12 +263,11 @@ The wireframes have not been created but by copying an already existing project 
 - The languages ​​used throughout the website are HTML5, CSS3, JavaScript and Python.
 
 ## Index and reference code
-- I modeled my django code from the mini-project of my courses for reference and then tried to modify it to fit my website and be my code tailored to the project. I used the Bootstrap framework to help build the site and fontawesome for the icons and then customized it
-so that it was unique.
+- I modeled my django code from the mini-project of my course and then I modified it as I prefered and I tailored my code to reach my goal and create my personal project. I used the Bootstrap framework to build the site and fontawesome for the icons. I have customized the e-commerce so that it was unique.
 
 ## Testing
 
-Testing was done using Chrome's developer tools to try and figure out how to make layout changes to find out what code would be needed to get the layout or changes I was looking for. I also tested different images, layouts and colors to the best of my knowledge and experience at the time until I got that look I was happy with.
+Testing was done using Chrome's developer tools to try and figure out how to make layout changes, to find out what code would be needed to get the layout or changes I was looking for. I also tested different images, layouts and colors based on my knowledge and experience until the entire project looked like what I wanted to reach and made me happy about.
 
 - [Travis CI] (http://travis-ci.org) which tests the code every time it is submitted to GitHub.
 - [HTML validator] (https://validator.w3.org/)
@@ -284,9 +281,7 @@ Testing was done using Chrome's developer tools to try and figure out how to mak
 
 ## Deployment
 
-- I have distributed my code on gitpod in my GitHub repository.
-From my github repository it was connected to the Heroku server,
-The website was connected to the AWS S3 cloud database and wired with Stripe for secure payments. During the distribution, I made sure not to send any secret keys or data that could be exploited by cybercriminals.
+- I have distributed my code on gitpod in my GitHub repository. From my github repository it was connected to the Heroku server, the website was connected to the AWS S3 cloud database and wired with Stripe for secure payments. During the distribution, I made sure not to send any secret keys or data that could be exploited by cybercriminals.
 - I made sure that debugging was turned off to avoid unwanted leaks of sensitive code. All code worked and then submitted for evaluation via appropriate links and stored on GitHub.
 - I've made code changes and fixed known bugs and issues I've struggled with such as stripe payments which now work.
 - I also changed the debug to false before distribution.
@@ -295,7 +290,7 @@ The website was connected to the AWS S3 cloud database and wired with Stripe for
 
 ### Content
 
-I tried to reproduce an e-commerce by taking inspiration from the sites of large companies on the market.
+I tried to reproduce an e-commerce by taking inspiration from the sites of big companies on the market.
 
 ### Media
 - I took pictures, names, reviews from Amazon. (https://www.oprahmag.com/entertainment/books/a29576863/types-of-book-genres/)(https://www.waterstones.com/books/search/term/the+help)
