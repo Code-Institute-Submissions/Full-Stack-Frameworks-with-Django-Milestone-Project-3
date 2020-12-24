@@ -35,7 +35,7 @@ The goal of Library is to give the user a good experience when purchasing book(s
 - Removing book(s) from cart
 - Secure online payment
 
-From the perspective of the website vendor or operator, Library's goal is to offer a good experience when updating the website in a simple and effective way by using user functions in addition to the following:
+From the perspective of the website seller or operator, Library's goal is to offer a good experience when updating the website in a simple and effective way by using user functions in addition to the following:
 
 - Log as Admin/Superuser
 - Add, modify or delete item(s)/book(s):
@@ -122,22 +122,28 @@ The wireframes have not been created but by copying an already existing project 
 
     - Home
     ![](media/home.jpg)
+
     - Products Page
     ![](media/products.jpg)
+
     - Details Books Page
     ![](media/details.jpg)
-    - [Login page](https://salvo-library.herokuapp.com/accounts/login/)
-    - ![](media/products.jpg)
-    - [Registration page](https://salvo-library.herokuapp.com/accounts/signup/)
-    - ![](media/products.jpg)
-    - [Cart Page](https://salvo-library.herokuapp.com/bag/)
-    - ![](media/products.jpg)
-    - [Payment form](https://salvo-library.herokuapp.com/checkout/)
-    - ![](media/products.jpg)
-    - [Profile page](https://salvo-library.herokuapp.com/profile/)
-    - ![](media/products.jpg)
-    - [Bag page](https://salvo-library.herokuapp.com/bag/)
-    - ![](media/products.jpg)
+
+    - Login page
+    ![](media/login.jpg)
+
+    - Registration page
+    ![](media/registration.jpg)
+
+    - Cart Page
+    ![](media/cart.jpg)
+
+    - Payment form
+    ![](media/checkout.jpg)
+
+    - Profile page
+    ![](media/profile.jpg)
+
     - Log out Page
     ![](media/logout.jpg)
 
@@ -151,67 +157,149 @@ The wireframes have not been created but by copying an already existing project 
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+### Existing features
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
+#### Navbar:
+
+- The navigation bar is fixed and present at the top of the page for easy navigation even when the user is at the bottom.
+
+
+** Desktop **
+- At the top left there is the logo of the brand, linked to the home page.
+
+- In the center at the top a search bar.
+
+- Below the search bar there are the buttons with the categories with drop down menu. For a targeted and cleaner search by the user.
+
+- At the top right there are two buttons one for the profile, one for the cart.
+
+
+** Tablets and mobile devices **
+
+- The menu is displayed with the layout of the hamburger, where the home and categories are located. The search bar, in profile and the shopping cart remain visible through icons.
+
+- The page content is resized to a layout appropriate to the size of the smallest device screen size.
+
+
+#### Home page:
+
+- Provides the user with a friendly and simple complete view of the website layout. The screen is dominated by an image and a question that entices the user, visitor to explore the site.
+
+
+#### Product page:
+
+- Show users available books with name, price, membership category, rating.
+
+- As Superuser / Admin there are also the edit and delete buttons.
+
+
+#### Login page:
+
+- ** Login Form ** - A login form has been added so that the user can access the website. If a user enters invalid credentials, access will be denied. Furthermore, both fields are required for successful login.
+
+
+#### Registration page:
+
+- ** Registration Form ** - A registration form has been added so that the user can register on the website. There are five required fields, email address, email confirmation, username, password and password confirmation. All fields must be filled in before they can register successfully otherwise they will receive a notification from the form to fill in the missing details. The Password and Confirm Password fields must also match before a user can successfully register. If you have successfully signed up, you will receive a notification and log in to the account you just created. There is also a link to the login page if you already have an account and want to log in. Upon successful registration, an email is sent to confirm the email that redirects to the website to log in and confirm access.
+
+
+#### Cart page:
+
+- ** Cart ** - When a user has placed something in the cart, the items in the cart will be displayed and the user can proceed to checkout or open their items if they want to change the quantity.
+
+
+#### Payment page:
+
+- ** Payment module ** - Stripe was used to complete the purchase in a safe and secure way for the user.
+
+
+#### Successful Payment Page:
+
+- ** Successful payment box ** 
+  - A page is displayed and an email with a summary of your purchases is sent.
+
+
+#### Profile page:
+
+- ** User Profile ** 
+  - When a user is logged in, they can view their profile on the profile page, this will give them the ability to change the delivery address and a summary of their previous purchases.
 
 ### Features Left to Implement
-- Another feature idea
+
+- Modify the search bar, so that it can be integrated stylistically to the website.
+- Integrate the confirmation message to the request of delete an item from cart.
+- Integrate the option to delete your profile from the website.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+### Tools
+- [Gitpod] (https://gitpod.io) IDE used.
+- [Django] (https://www.djangoproject.com/) The python framework used as required by the project requirements.
+- [Stripe] (https://stripe.com) was the intended tool for using secure payments.
+- [PIP] (https://pip.pypa.io/en/stable/installing/) used to install requirements in the project.
+- [Gunicorn] (https://pypi.org/project/gunicorn/) Used for the distribution of a Django project in Heroku.
+- [Django Heroku] (https://pypi.org/project/django-heroku/) is used to view the distributed project.
+- [GitHub] (https://github.com/) is used as a remote backup of the code used in the project and used to show the code remotely.
+- [Django Allauth] (https://django-allauth.readthedocs.io/en/latest/installation.html) used for login and registration.
+- [Django Crispy-forms] (https://django-crispy-forms.readthedocs.io/en/latest/) used to create CSS embedded template packages.
+- [Django Pillow] (https://pillow.readthedocs.io/en/stable/) used to allow uploading of images via my admin page.
+- [Webhook_handler] (https://developers.google.com/assistant/conversational/webhooks) used as event handlers of the Event Grid.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
 
+### Libraries
+- [Bootstrap] (https://www.bootstrapcdn.com/) to assist with the layout and style of the website.
+- [FontAwesome] (https://www.bootstrapcdn.com/fontawesome/) to apply the information icons used throughout the website.
+- [Google Font] (https://fonts.google.com/) used to change the base font. Used the font (Gentium Book Basic).
+- [Jquery] (http://code.jquery.com/) used for the front-end of websites.
+- [Css-tricks] (https://css-tricks.com/) used to edit toast messages.
+
+### SQL Database:
+- [dj-database-url](https://pypi.org/project/dj-database-url/) - package allows connection to a database URL (eg Heroku Postgres).
+- [Heroku Postgres](https://www.heroku.com/postgres) - cloud-based Postgres managed SQL database to use in deployment instead of sqlite3 for production.
+- [SQLite3 DB](https://docs.python.org/2/library/sqlite3.html) - the standard database on django using Django's ORM in development for local testing.
+- [AWS S3 Bucket] (https://aws.amazon.com/) to store all information, not contained on Heroku, on the database of products and services.
+
+### Languages
+- The languages ​​used throughout the website are HTML5, CSS3, JavaScript and Python.
+
+## Index and reference code
+- I modeled my django code from the mini-project of my courses for reference and then tried to modify it to fit my website and be my code tailored to the project. I used the Bootstrap framework to help build the site and fontawesome for the icons and then customized it
+so that it was unique.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing was done using Chrome's developer tools to try and figure out how to make layout changes to find out what code would be needed to get the layout or changes I was looking for. I also tested different images, layouts and colors to the best of my knowledge and experience at the time until I got that look I was happy with.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- [Travis CI] (http://travis-ci.org) which tests the code every time it is submitted to GitHub.
+- [HTML validator] (https://validator.w3.org/)
+- [CSS validator] (https://jigsaw.w3.org/css-validator/)
+- [Jasmine] (https://jasmine.github.io/pages/getting_started.html)
+- Tested the entire site on [Responsinator] (http://www.responsinator.com) as a backup to ensure responsiveness.
+- [PEP8] (http://pep8online.com/) for Python validation.
+- [Test Card] (https://stripe.com/docs/testing#cards) has verified that all fields require completion.
+- [Jshint] (https://jshint.com/) for JavaScript validation.
+- [Dev Google] (https://developers.google.com/web/tools/lighthouse#devtools) revised the entire site. 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+- I have distributed my code on gitpod in my GitHub repository.
+From my github repository it was connected to the Heroku server,
+The website was connected to the AWS S3 cloud database and wired with Stripe for secure payments. During the distribution, I made sure not to send any secret keys or data that could be exploited by cybercriminals.
+- I made sure that debugging was turned off to avoid unwanted leaks of sensitive code. All code worked and then submitted for evaluation via appropriate links and stored on GitHub.
+- I've made code changes and fixed known bugs and issues I've struggled with such as stripe payments which now work.
+- I also changed the debug to false before distribution.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+I tried to reproduce an e-commerce by taking inspiration from the sites of large companies on the market.
 
 ### Media
-- The photos used in this site were obtained from ...
+- I took pictures, names, reviews from Amazon. (https://www.oprahmag.com/entertainment/books/a29576863/types-of-book-genres/)(https://www.waterstones.com/books/search/term/the+help)
+- Google Image Search for images used in this project with reuse rights.
 
 ### Acknowledgements
-
-- I received inspiration for this project from X
+- Code Institute for providing the knowledge and challenge in creating this project. [Code Institute](https://codeinstitute.net/)
